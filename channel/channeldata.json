@@ -1,0 +1,19 @@
+{
+  "channeldata_version": 1,
+  "packages": {
+    "pirate": {
+      "home": "https://github.com/SionBayliss/PIRATE",
+      "license": "GPLv2",
+      "reference_package": "linux-64/pirate-prerelease-1.tar.bz2",
+      "source_git_url": "https://github.com/SionBayliss/PIRATE.git",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "Pre-release PIRATE - a pangenome construction and threshold evaluation tool for multiple genomic features.",
+      "version": "prerelease"
+    }
+  },
+  "subdirs": [
+    "linux-64"
+  ]
+}

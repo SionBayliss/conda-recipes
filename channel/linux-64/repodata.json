@@ -1,0 +1,29 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "pirate-prerelease-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "depends": [
+        "blast >=2.2.31",
+        "cd-hit >=4.6.4",
+        "diamond >=0.9.14",
+        "fasttree >=2.1.10",
+        "mafft 7.310",
+        "mcl >=14.137",
+        "parallel >=20170422",
+        "perl-bioperl 1.6.924"
+      ],
+      "license": "GPLv2",
+      "md5": "140750d0363e9c2694dcc9847e6b4299",
+      "name": "pirate",
+      "sha256": "663d3e270875e53a611eec750f1c1c3107ce519d37a7bb8ed8ce1ae3bef6eb90",
+      "size": 3355350,
+      "subdir": "linux-64",
+      "timestamp": 1516636591636,
+      "version": "prerelease"
+    }
+  }
+}
