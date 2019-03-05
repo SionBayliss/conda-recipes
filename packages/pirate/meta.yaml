@@ -11,31 +11,32 @@ build:
 
 requirements:
   build:
+    - perl-bioperl ==1.7.2
     - mcl >=14.137
     - mafft ==7.310
     - cd-hit >=4.6.4
     - fasttree >=2.1.10
     - diamond >=0.9.14
     - blast >=2.2.31
-    - perl-bioperl ==1.6.924
     - parallel >=20170422
 
   run:
+    - perl-bioperl ==1.7.2
     - mcl >=14.137
     - mafft ==7.310
     - cd-hit >=4.6.4
     - fasttree >=2.1.10
     - diamond >=0.9.14
     - blast >=2.2.31
-    - perl-bioperl ==1.6.924
     - parallel >=20170422
 
 test:
   imports:
    
   commands:
-    - PIRATE --check
+#    - PIRATE --check
 about:
   home: https://github.com/SionBayliss/PIRATE
-  license: GPLv2
-  summary: "Pre-release PIRATE - a pangenome construction and threshold evaluation tool for multiple genomic features."
+  license: GPL3
+  license_file: LICENSE
+  summary: "PIRATE (pre-release) - a pangenomics toolbox"
